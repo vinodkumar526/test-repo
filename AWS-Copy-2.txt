@@ -1,0 +1,30 @@
+:::AWS::::
+
+
+-> aws iam list-users --no-verify-ssl
+
+"Users": [
+        {
+            "Path": "/",
+            "UserName": "vinod",
+            "UserId": "AIDAQOMUQ7ODTHKXGU2WM",
+            "Arn": "arn:aws:iam::030913133447:user/vinod",
+            "CreateDate": "2022-11-16T07:25:08+00:00",
+            "PasswordLastUsed": "2022-11-23T06:41:06+00:00"
+        }
+    ]
+
+
+->  echo "test" > demo.txt
+-> cat demo.txt
+test
+-> pwd
+/home/cloudshell-user
+
+
+::IAM ROLES FOR SERVICES::
+> EC2 Instance roles
+> Lambda function roles
+> Role of cloud formation
+
+Added line
